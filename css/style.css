@@ -1,0 +1,204 @@
+*{  
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    padding: 0;
+}
+a{
+    text-decoration:none;
+    color: #000000;
+}
+.todo{
+    background-image: url(../assets/food.webp);
+}
+img{
+    width:100%;
+}
+.inicio--titulo{
+    width:70%;
+}
+.inicio--logo{
+    width: 5em;
+}
+.icon{
+    width: 2em;
+}
+.carrusel iframe{
+    width: 100%;
+}
+p{
+    width: 100%
+}
+.inicio{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.navbar,.dropdown-menu{
+    border:solid #000000 0.2em;
+    background-color: #723b3ba1;
+    font-weight: 900;
+}
+.navbar-collapse,.dropdown-menu{
+    text-align: center;
+}
+.intro{
+    margin-top: 0.5em;
+    border: #000000 solid 0.1em;
+    background-color: #d8aa6a57;
+    align-content: space-evenly;
+    padding: 2%;
+}
+footer{
+    border-top:#000000 solid 0.2em;
+    background-color: #506C64;
+    position:absolute; 
+}
+footer ul{
+    padding: 1em;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.menu section{
+    justify-content: space-evenly;
+}
+.producto,.sucursal{
+    width: 40%;
+    border: #000000 solid 0.1em;
+    padding-top: 0.7em;
+    margin: 0.4em;
+    background-color: #723b3b52;
+}
+.producto img,.producto,.producto a,.sucursal{
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(32,32,32,0.3);
+    border: #000000 solid 0.1em;
+}
+.menu h2, main h2{
+    background-color: #a1753857;
+    border-bottom:solid #000000 0.1em;
+    margin-top: 0.5em;
+}
+.sucursal{
+    width: 100%;
+}
+.sucursal iframe{
+    width: 100%;
+    height: 10%;
+}
+.sucursal h5{
+    text-align: center;
+    text-decoration: underline;
+}
+.formulario{
+    border: #000000 solid 0.2em;
+    padding: 1em;
+    width: 95%;
+    margin: 1em 0em 1em 0em;
+}
+.form{
+    justify-content: center;
+}
+.boton{
+    margin-top: 0.4em;
+    justify-content: flex-end;
+}
+/**********HEADER************************/
+/*.title-container{
+    display:flex;
+    justify-content: space-around;
+    border-bottom: #000000 solid 0.2em;
+}
+.title-container img{
+    width: 13em;
+}
+#logo{
+    width: 5em;
+}
+nav{
+    background-color: #562c2c52;
+}
+nav li{
+    border:0.2em solid #000000;
+    background-color: #562c2cd0;
+}
+nav ul{
+    padding: 0.2em;
+    display: flex;
+    border-bottom: #000000 solid 0.2em;
+    justify-content: space-around;   
+}
+nav a{
+    width: 25%;
+    text-align: center;
+}
+/***************************************/
+/***********MAIN************************/
+/*.home-container-info{
+    margin: 2em;
+}
+.home-container-info p{
+    
+    
+}
+.home-container-info img,.home-container iframe{
+    width: 100%;
+}
+.home-container-multi div{
+    border: #000000 solid 0.2em;
+    padding: 0.2em;
+}
+.menu img{
+    width: 100%;
+    height:9em;
+}
+.menu section{
+    display: flex;
+    word-wrap: normal;
+}
+.menu div{
+    border: #000000 solid 0.1em;
+    margin: 0.3em;
+    background-color: #c09d6c69;
+    text-align: center;
+}
+.menu p{
+    border: #000000 solid 0.1em;
+    background-color: #c78f4169;
+}
+.menu p,.menu input{
+    padding: 0.2em;
+    margin: 0.5em;
+}
+.menu{
+    display: grid;
+    grid-template-columns: 0.01fr,repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas:
+    "navegador" 
+    "promos"
+    "infusiones"
+    "panaderia"
+    "pasteleria";
+}
+.menu nav{
+    grid-area: navegador;
+}
+#Promos{
+    grid-area: promos;
+}
+#Infusiones{
+    grid-area: infusiones;
+}
+#Panaderia{
+    grid-area: panaderia;
+}
+#Pasteleria{
+    grid-area: pasteleria;
+}
+/***************************************/
+/*************FOOTER********************/
+/* por falta de iconos*/
+/*
+
+/*************************************/

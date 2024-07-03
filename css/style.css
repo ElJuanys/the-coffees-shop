@@ -10,6 +10,9 @@ a{
 .todo{
     background-color: #C7A17A;
 }
+{
+    border: #000000 solid 0.1em; 
+}
 /***************HEADER***********************/
 .container-nav{
     padding: 0;
@@ -97,6 +100,9 @@ a{
 .producto img,.producto,.producto a{
     box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(32,32,32,0.3);
     border: #000000 solid 0.1em;
+}
+.producto img{
+    margin-top: 0.3em;
 }
 .menu h2, main h2{
     background-color: #873D48;

@@ -33,8 +33,7 @@ a{
 }
 .navegador,.desplegable{
     background-color: #C7B4A0;
-    font-weight: 900;
-    
+    font-weight: 900; 
 }
 .navegador_div,.desplegable{
     text-align: center;
@@ -63,7 +62,6 @@ a{
     background-color: #d8aa6a57;
     align-content: space-evenly;
     padding: 2%;
-    
 }
 .producto{
     border: #000000 solid 0.1em;
@@ -93,6 +91,9 @@ a{
 }
 .producto:hover::before{
     opacity: .6 ;
+}
+.producto img{
+    margin-top: 0.4em;
 }
 .descripcion{
     margin: 0.9em;

@@ -89,6 +89,9 @@ a{
 .producto:hover::before{
     opacity: .6 ;
 }
+.producto img{
+    margin-top: 0.4em;
+}
 .descripcion{
     margin: 0.9em;
 }

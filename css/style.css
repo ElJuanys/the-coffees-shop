@@ -8,12 +8,11 @@ a{
     color: #000000;
 }
 .todo{
-    background-image: url(../assets/food.webp);
+    background-color: #C7A17A;
 }
-.presencia{
-    background-color: #fcebcb6e;
-    display: flex;
-    margin: 3%;
+/***************HEADER***********************/
+.container-nav{
+    padding: 0;
 }
 .navegador_vista{
     display: flex;
@@ -25,25 +24,35 @@ a{
 .inicio--logo{
     width: 20%;
 }
-.icon{
-    width: 2em;
+.navegador{
+    border-top: #000000 solid 0.1em;
+    border-bottom: #000000 solid 0.1em;
 }
-.carrusel iframe,p,.sucursal,.sucursal iframe{
+.navegador,.desplegable{
+    background-color: #C7B4A0;
+    font-weight: 900;
+    
+}
+.navegador_div,.desplegable{
+    text-align: center;
+}
+/********************************************/
+/*****************MAIN**********************/
+.presencia{
+    background-color: #fcebcb6e;
+    display: flex;
+    margin: 3%;
+}
+.presencia img{
+    margin-top: 0.3em;
+}
+.carrusel iframe{
     width: 100%;
 }
 .inicio{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-}
-.navbar,.dropdown-menu{
-    border:solid #000000 0.2em;
-    background-color: #723b3ba1;
-    font-weight: 900;
-}
-.navbar-collapse,.dropdown-menu{
-    text-align: center;
 }
 .intro{
     margin-top: 0.5em;
@@ -53,8 +62,88 @@ a{
     padding: 2%;
     
 }
+.producto{
+    border: #000000 solid 0.1em;
+    background-color: #C7AB8D;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: flex-end;
+}
+.precio{
+    color: #313131;
+}
+.orden{
+    display: flex;
+    justify-content: space-evenly;
+}
+.producto::before{
+    transition: all .4s ease-in;
+    background-color: rgba(255, 255, 255, 0.418);
+    position: absolute;
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+.producto:hover::before{
+    opacity: .6 ;
+}
+.descripcion{
+    margin: 0.9em;
+}
+.producto img,.producto,.producto a{
+    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(32,32,32,0.3);
+    border: #000000 solid 0.1em;
+}
+.menu h2, main h2{
+    background-color: #873D48;
+    margin:0.8em 0em 0.8em 0em;
+}
+.sucursal iframe{
+    width: 100%;
+    height: 100%;
+}
+.sucursal{
+    margin:2em 0em 2em 0em;
+    padding: 1em;
+}
+.sucursal_individual{
+    background-color:#fcebcb6e;
+    border: #000000 solid 0.1em;
+}
+.sucursal_individual_img img{
+    transition: transform .2s;
+    border: #000000 solid 0.1em;
+}
+.sucursal_individual_img img:hover {
+    transform: scale(0.9); 
+}
+.sucursal h5{
+    text-align: center;
+    background-color: #873D48;
+}
+.formulario{
+    border: #000000 solid 0.2em;
+    padding: 1em;
+    width: 95%;
+    margin: 1em 0em 1em 0em;
+}
+.container_formulario{
+    justify-content: center;
+}
+.boton{
+    margin-top: 0.4em;
+    justify-content: flex-end;
+}
+/*******************************************/
+/****************FOOTER*********************/
+.icon{
+    width: 2em;
+}
 footer{
-    border-top:#000000 solid 0.2em;
     background-color: #506C64;
     position:absolute; 
 }
@@ -64,149 +153,13 @@ footer ul{
     display: flex;
     justify-content: space-between;
 }
-.producto{
-    border: #000000 solid 0.1em;
-    background-color: #723b3b52;
-    margin-bottom: 3%;
+.copyright{
     display: flex;
-    justify-content: flex-end;
-}
-.orden{
-    display: flex;
-    justify-content: space-evenly;
-}
-.sucursal{
-    width: 40%;
-    border: #000000 solid 0.1em;
-    padding-top: 0.7em;
-    margin: 0.4em;
-    background-color: #723b3b52;
-}
-.producto img,.producto,.producto a,.sucursal{
-    box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(32,32,32,0.3);
-    border: #000000 solid 0.1em;
-}
-.menu h2, main h2{
-    background-color: #a1753857;
-    border-bottom:solid #000000 0.1em;
-    margin-top: 0.5em;
-}
-.sucursal iframe{
-    height: 10%;
-}
-.sucursal h5{
-    text-align: center;
-    text-decoration: underline;
-}
-.formulario{
-    border: #000000 solid 0.2em;
-    padding: 1em;
-    width: 95%;
-    margin: 1em 0em 1em 0em;
-}
-.form{
     justify-content: center;
 }
-.boton{
-    margin-top: 0.4em;
-    justify-content: flex-end;
+/******************************************/
+@media screen and (max-width: 575px) {
+    .navegador{
+        justify-content: center;
+    }
 }
-/**********HEADER************************/
-/*.title-container{
-    display:flex;
-    justify-content: space-around;
-    border-bottom: #000000 solid 0.2em;
-}
-.title-container img{
-    width: 13em;
-}
-#logo{
-    width: 5em;
-}
-nav{
-    background-color: #562c2c52;
-}
-nav li{
-    border:0.2em solid #000000;
-    background-color: #562c2cd0;
-}
-nav ul{
-    padding: 0.2em;
-    display: flex;
-    border-bottom: #000000 solid 0.2em;
-    justify-content: space-around;   
-}
-nav a{
-    width: 25%;
-    text-align: center;
-}
-/***************************************/
-/***********MAIN************************/
-/*.home-container-info{
-    margin: 2em;
-}
-.home-container-info p{
-    
-    
-}
-.home-container-info img,.home-container iframe{
-    width: 100%;
-}
-.home-container-multi div{
-    border: #000000 solid 0.2em;
-    padding: 0.2em;
-}
-.menu img{
-    width: 100%;
-    height:9em;
-}
-.menu section{
-    display: flex;
-    word-wrap: normal;
-}
-.menu div{
-    border: #000000 solid 0.1em;
-    margin: 0.3em;
-    background-color: #c09d6c69;
-    text-align: center;
-}
-.menu p{
-    border: #000000 solid 0.1em;
-    background-color: #c78f4169;
-}
-.menu p,.menu input{
-    padding: 0.2em;
-    margin: 0.5em;
-}
-.menu{
-    display: grid;
-    grid-template-columns: 0.01fr,repeat(4,1fr);
-    grid-template-rows: repeat(4,1fr);
-    grid-template-areas:
-    "navegador" 
-    "promos"
-    "infusiones"
-    "panaderia"
-    "pasteleria";
-}
-.menu nav{
-    grid-area: navegador;
-}
-#Promos{
-    grid-area: promos;
-}
-#Infusiones{
-    grid-area: infusiones;
-}
-#Panaderia{
-    grid-area: panaderia;
-}
-#Pasteleria{
-    grid-area: pasteleria;
-}
-/***************************************/
-/*************FOOTER********************/
-/* por falta de iconos*/
-/*
-
-/*************************************/

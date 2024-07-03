@@ -16,37 +16,37 @@
     </head>
 <body>
     <div class="container-fluid todo">
-        <header class="row" >
+        <header class="row">
             <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
                 <div class="container inicio">
-                    <img src="../assets/logo.png" alt="Logo Empresa" class="inicio--logo">
-                    <img src="../assets/textlogo-Photoroom.png" alt=" Nombre de la Empresa THE COFFEES SHOP" class="inicio--titulo">
+                    <img src="../assets/logo.png" alt="Logo de nuestra Empresa" class="inicio--logo">
+                    <img src="../assets/textlogo-photoroom.png" alt=" Nombre de la Empresa THE COFFEES SHOP" class="inicio--titulo">
                     <button type="button" class="btn btn-outline-dark">Carrito</button>
                 </div>
             </div>
-            <div class="col-sm-12 col-md-12  col-lg-12 col-xl-12">    
+            <div class="col-sm-12 col-md-12  col-lg-12 col-xl-12 container-nav">    
                 <nav class="navbar navbar-expand-lg navegador">            
-                    <div class="container-fluid">
                         <div class="col-sm-12 col-md-12 col-lg-8 col-xl-9 navegador_vista">
-                            <h1>Nuestro Coffees Shop</h1>
+                            <h1>Nuestro Menu</h1>
                             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon"></span>
                             </button>
                         </div>
-                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                        <div class="collapse navbar-collapse navegador_div" id="navbarNavDropdown">
                             <ul class="navbar-nav">
                                 <li class="nav-item">
                                     <a class="nav-link" aria-current="page" href="../index.html">Inicio</a>
                                 </li>
                                 <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle  active" href="./menu.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    <a class="nav-link dropdown-toggle active" href="./menu.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                     Menu
                                     </a>
-                                    <ul class="dropdown-menu">
+                                    <ul class="dropdown-menu desplegable">
                                         <li><a class="dropdown-item" href="./menu.html#Promos">Promos</a></li>
                                         <li><a class="dropdown-item" href="./menu.html#Infusiones">Infusiones</a></li>
                                         <li><a class="dropdown-item" href="./menu.html#Panaderia">Panaderia</a></li>
                                         <li><a class="dropdown-item" href="./menu.html#Pasteleria">Pasteleria</a></li>
+                                        <li><a class="dropdown-item" href="./menu.html#Sandwiches">Sandwiches</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item">
@@ -54,157 +54,252 @@
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="./contacto.html">Contacto</a>
-                                </li>
-                                
+                                </li>                               
                             </ul>
                         </div>
-                    </div>
                 </nav>
             </div>
         </header>
-        <main class="row menu" >
+        <main class="row menu">
             <div class="container menu">     
                 <section id="Promos" class="row orden">  
                     <h2>Promos</h2>
-                        <div class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
                             <img src="../assets/promo1.png" class="card-img-top" alt="Primer Cartel de Promocion de Cafe">
                             <div class="card-body">
-                                <h5 class="card-title">Promo Numero 1</h5>
-                                <p class="card-text">Cafe con Leche con 3 Tostadas</p>
-                                <a href="#" class="btn btn-outline-dark">Agregar al Carrito</a>
+                                <h5 class="card-title">Promo Desayuno</h5>
+                                <p class="card-text">Cafe a eleccion con 3 Tostadas</p>
+                                <p class="precio">Precio: $5000</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
                             </div>
-                        </div>
-                        <div class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
-                            <img src="../assets/promo2.png" class="card-img-top" alt="Primer Cartel de Promocion de Cafe">
+                        </article>
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/promo2.png" class="card-img-top" alt="Segundo Cartel de Promocion de Cafe">
                             <div class="card-body">
-                                <h5 class="card-title">Promo Numero 1</h5>
-                                <p class="card-text">Cafe con Leche con 3 Tostadas</p>
-                                <a href="#" class="btn btn-outline-dark">Agregar al Carrito</a>
+                                <h5 class="card-title">Promo Merienda</h5>
+                                <p class="card-text">Licuado con Pebete o Sacramento </p>
+                                <p class="precio">Precio: $7000</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
                             </div>
-                        </div> 
-                        <div class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
-                            <img src="../assets/promo3.png" class="card-img-top" alt="Primer Cartel de Promocion de Cafe">
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/promo3.png" class="card-img-top" alt="Tercero Cartel de Promocion de Cafe">
                             <div class="card-body">
-                                <h5 class="card-title">Promo Numero 1</h5>
-                                <p class="card-text">Cafe con Leche con 3 Tostadas</p>
-                                <a href="#" class="btn btn-outline-dark">Agregar al Carrito</a>
+                                <h5 class="card-title">Promo Tortita</h5>
+                                <p class="card-text">Cafe a eleccion con 1/2 Torta</p>
+                                <p class="precio">Precio: $7400</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
                             </div>
-                        </div> 
-                        <div class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
-                            <img src="../assets/promo4.png" class="card-img-top" alt="Primer Cartel de Promocion de Cafe">
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/promo4.png" class="card-img-top" alt="Cuarto Cartel de Promocion de Cafe">
                             <div class="card-body">
-                                <h5 class="card-title">Promo Numero 1</h5>
-                                <p class="card-text">Cafe con Leche con 3 Tostadas</p>
-                                <a href="#" class="btn btn-outline-dark">Agregar al Carrito</a>
+                                <h5 class="card-title">Promo Niños</h5>
+                                <p class="card-text">Chocolatada chica con 2 macarons</p>
+                                <p class="precio">Precio: $4200</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
                             </div>
-                        </div>              
+                        </article>              
                 </section>
-            
-            <section id="Infusiones" class="row">
-            <h2>Infusiones</h2>     
-                <div class="card producto col-sm-6">
-                    <img src="../assets/chocolatada.jpg"  class="card-img-top" alt="Ilustracion de Chocolatada">
-                    <div class="card-body">
-                        <h5 class="card-title">Promo Numero 1</h5>
-                        <p class="card-text">Cafe con Leche con 3 Tostadas</p>
-                        <a href="#" class="btn btn-outline-dark">Agregar al Carrito</a>
-                    </div>
-                </div>
-                <div class="card producto col-sm-6">
-                    <img src="../assets/gaseosa.jpg"  class="card-img-top" alt="Ilustracion de Gaseosa">
-                    <div class="card-body">
-                        <h5 class="card-title">Promo Numero 1</h5>
-                        <p class="card-text">Cafe con Leche con 3 Tostadas</p>
-                        <a href="#" class="btn btn-outline-dark">Agregar al Carrito</a>
-                    </div>
-                </div>
-                <div class="card producto col-sm-6">
-                    <img src="../assets/taza de cafe.jpg" class="card-img-top" alt="Ilustracion de Cafe">
-                    <div class="card-body">
-                        <h5 class="card-title">Promo Numero 1</h5>
-                        <p class="card-text">Cafe con Leche con 3 Tostadas</p>
-                        <a href="#" class="btn btn-outline-dark">Agregar al Carrito</a>
-                    </div>
-                </div>
-                <div class="card producto col-sm-6">
-                    <img src="../assets/licuado.jpg" class="card-img-top" alt="Ilustracion de Licuado">
-                    <div class="card-body">
-                        <h5 class="card-title">Promo Numero 1</h5>
-                        <p class="card-text">Cafe con Leche con 3 Tostadas</p>
-                        <a href="#" class="btn btn-outline-dark">Agregar al Carrito</a>
-                    </div>
-                </div>  
-            </section>
-            <!--<section id="Panaderia">
-                <h2>Panaderia</h2>
-                <div>
-                    <img src="../assets/galletas.jfif" alt="Ilustracion de Galletas"><p>Descripcion junto con precio</p><input type="button" value="Agregar al carrito">
-                </div>
-                <div>
-                    <img src="../assets/factura.jpg" alt="Ilustracion de Factura"><p>Descripcion junto con precio</p><input type="button" value="Agregar al carrito">
-                </div>
-                <div>
-                    <img src="../assets/pan1.jpg" alt="Ilustracion de Pan de Miga"><p>Descripcion junto con precio</p><input type="button" value="Agregar al carrito">
-                </div>
-                <div>
-                    <img src="../assets/pan2.jpg" alt="Ilustracion de Pan"><p>Descripcion junto con precio</p><input type="button" value="Agregar al carrito">
-                </div>       
-            </section>
-            <section id="Pasteleria">
-                <h2>Pasteleria</h2>
-                <div>
-                    <img src="../assets/pastel.jfif" alt="Ilustracion de Pastel"><p>Descripcion junto con precio</p><input type="button" value="Agregar al carrito">
-                </div>
-                <div>
-                    <img src="../assets/pastelito3.jpg" alt="Ilustracion de Pastelito Comun"><p>Descripcion junto con precio</p><input type="button" value="Agregar al carrito">
-                </div>
-                <div>
-                    <img src="../assets/pastelito2.jpg" alt="Ilustracion de Pastelito de Chocolate "><p>Descripcion junto con precio</p><input type="button" value="Agregar al carrito">
-                </div>
-                <div>
-                    <img src="../assets/pastelito1.png" alt="Ilustracion de Pastelito de Frutilla"><p>Descripcion junto con precio</p><input type="button" value="Agregar al carrito">
-                </div>       
-            </section>-->
-        </div>
+                <section id="Infusiones" class="row orden">  
+                    <h2>Infusiones</h2>
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/cafe.png" class="card-img-top" alt="Ilustracion de Cafe">
+                            <div class="card-body">
+                                <h5 class="card-title">Taza de Cafe</h5>
+                                <p class="card-text">Expreso, Cortado, Café con leche</p>
+                                <p class="precio">Precio: $3000</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article>
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/chocolatada.png" class="card-img-top" alt="Ilustracion de Chocolatada">
+                            <div class="card-body">
+                                <h5 class="card-title">Chocolatada</h5>
+                                <p class="card-text">Chocolatada con Leche</p>
+                                <p class="precio">Precio: $3200</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/licuado.png" class="card-img-top" alt="Ilustracion de Licuados">
+                            <div class="card-body">
+                                <h5 class="card-title">Licuados</h5>
+                                <p class="card-text">De Frutas, con Leche o Agua</p>
+                                <p class="precio">Precio: $4700</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/submarino.png" class="card-img-top" alt="Ilustracion de Submarino">
+                            <div class="card-body">
+                                <h5 class="card-title">Submarino</h5>
+                                <p class="card-text">Leche con Barra de Chocolate</p>
+                                <p class="precio">Precio: $3500</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article>              
+                </section>
+                <section id="Panaderia" class="row orden">  
+                    <h2>Panaderia</h2>
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/panes.png" class="card-img-top" alt="Ilustracion de Panes">
+                            <div class="card-body">
+                                <h5 class="card-title">Panes</h5>
+                                <p class="card-text">Pan Flauta, Miñon y Frances</p>
+                                <p class="precio">Precio: $2000</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article>
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/bizcochitos.png" class="card-img-top" alt="Ilustracion de Masitas">
+                            <div class="card-body">
+                                <h5 class="card-title">Masitas de Grasa</h5>
+                                <p class="card-text">Bizcochitos y Cuernitos</p>
+                                <p class="precio">Precio: $3200</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/facturas.png" class="card-img-top" alt="Ilustracion de Facturas">
+                            <div class="card-body">
+                                <h5 class="card-title">Facturas</h5>
+                                <p class="card-text">Medialunas, Vigilantes y Pastelera</p>
+                                <p class="precio">Precio: $550</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/macarons.png" class="card-img-top" alt="Ilustracion de Masitas Dulces">
+                            <div class="card-body">
+                                <h5 class="card-title">Masas dulces</h5>
+                                <p class="card-text">Macarons, Pastelitos y Bola de Fraile</p>
+                                <p class="precio">Precio: $1550</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article>              
+                </section>
+                <section id="Pasteleria" class="row orden">  
+                    <h2>Pasteleria</h2>
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/oreo.png" class="card-img-top" alt="Ilustracion de Lingote de Oreo">
+                            <div class="card-body">
+                                <h5 class="card-title">Lingote de Oreo</h5>
+                                <p class="card-text">Torta con base de galletita oreo, dulce de leche y crema</p>
+                                <p class="precio">Precio: $4800</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article>
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/cheesecake.png" class="card-img-top" alt="Ilustracion de ChesseCake">
+                            <div class="card-body">
+                                <h5 class="card-title">CheeseCake</h5>
+                                <p class="card-text">Torta con base de queso, bañada con frutos rojos</p>
+                                <p class="precio">Precio: $4500</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/lemonpie.png" class="card-img-top" alt="Ilustracion de Lemon Pie">
+                            <div class="card-body">
+                                <h5 class="card-title">Lemon Pie</h5>
+                                <p class="card-text">Tarta con base de hojaldre rellena con crema de limon</p>
+                                <p class="precio">Precio: $5200</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/chocotorta.png" class="card-img-top" alt="Ilustracion de Chocotorta">
+                            <div class="card-body">
+                                <h5 class="card-title">ChocoTorta</h5>
+                                <p class="card-text">Base de chocolinas, bañadas en cafe y dulce de leche</p>
+                                <p class="precio">Precio: $5500</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article>              
+                </section>  
+                <section id="Sandwiches" class="row orden">  
+                    <h2>Sandwiches</h2>
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/miga.png" class="card-img-top" alt="Ilustracion de Sandwich de Miga">
+                            <div class="card-body">
+                                <h5 class="card-title">De Miga</h5>
+                                <p class="card-text">4 Quesos, Salame y Queso, Primavera, Roquefort y Jamon</p>
+                                <p class="precio">Precio: $1470</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article>
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/veggie.png" class="card-img-top" alt="Ilustracion de Sandwich Veggie">
+                            <div class="card-body">
+                                <h5 class="card-title">Veggie</h5>
+                                <p class="card-text">Queso Zanahoria y Huevo, Tomate Lechuga y Queso, Remolacha y Queso</p>
+                                <p class="precio">Precio: $1550</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/pebete.png" class="card-img-top" alt="Ilustracion de Pebete">
+                            <div class="card-body">
+                                <h5 class="card-title">Pebetes</h5>
+                                <p class="card-text">Salame Jamon y Queso, Primavera (Mayonesa)</p>
+                                <p class="precio">Precio: $2430</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article> 
+                        <article class="card producto col-sm-5 col-md-5 col-lg-2 col-xl-2">
+                            <img src="../assets/sacramento.png" class="card-img-top" alt="Ilustracion de Sacramento">
+                            <div class="card-body">
+                                <h5 class="card-title">Sacramentos</h5>
+                                <p class="card-text">Medialuna Salada Con Jamon y Queso o Solo Queso</p>
+                                <p class="precio">Precio: $1200</p>
+                                <button type="button" class="btn btn-outline-dark">Agregar al Carrito</button>
+                            </div>
+                        </article>              
+                </section>         
+            </div>
         </main>
         <footer class="row container-fluid">
             <ul>
                 <li>
-                    <a href="">
+                    <a href="https://www.facebook.com/">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-facebook icon" viewBox="0 0 16 16">
                         <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://web.whatsapp.com/">
                         <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-whatsapp icon" viewBox="0 0 16 16">
                             <path d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232"/>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.messenger.com/">
                         <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-messenger icon" viewBox="0 0 16 16">
                             <path d="M0 7.76C0 3.301 3.493 0 8 0s8 3.301 8 7.76-3.493 7.76-8 7.76c-.81 0-1.586-.107-2.316-.307a.64.64 0 0 0-.427.03l-1.588.702a.64.64 0 0 1-.898-.566l-.044-1.423a.64.64 0 0 0-.215-.456C.956 12.108 0 10.092 0 7.76m5.546-1.459-2.35 3.728c-.225.358.214.761.551.506l2.525-1.916a.48.48 0 0 1 .578-.002l1.869 1.402a1.2 1.2 0 0 0 1.735-.32l2.35-3.728c.226-.358-.214-.761-.551-.506L9.728 7.381a.48.48 0 0 1-.578.002L7.281 5.98a1.2 1.2 0 0 0-1.735.32z"/>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="https://www.instagram.com/">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-instagram icon" viewBox="0 0 16 16">
                             <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
                         </svg>
                     </a>
                 </li>
                 <li>
-                    <a href="">
-                        <svg xmlns="http://www.w3.org/2000/svg"  fill="currentColor" class="bi bi-meta icon" viewBox="0 0 16 16">
-                            <path fill-rule="evenodd" d="M8.217 5.243C9.145 3.988 10.171 3 11.483 3 13.96 3 16 6.153 16.001 9.907c0 2.29-.986 3.725-2.757 3.725-1.543 0-2.395-.866-3.924-3.424l-.667-1.123-.118-.197a55 55 0 0 0-.53-.877l-1.178 2.08c-1.673 2.925-2.615 3.541-3.923 3.541C1.086 13.632 0 12.217 0 9.973 0 6.388 1.995 3 4.598 3q.477-.001.924.122c.31.086.611.22.913.407.577.359 1.154.915 1.782 1.714m1.516 2.224q-.378-.614-.727-1.133L9 6.326c.845-1.305 1.543-1.954 2.372-1.954 1.723 0 3.102 2.537 3.102 5.653 0 1.188-.39 1.877-1.195 1.877-.773 0-1.142-.51-2.61-2.87zM4.846 4.756c.725.1 1.385.634 2.34 2.001A212 212 0 0 0 5.551 9.3c-1.357 2.126-1.826 2.603-2.581 2.603-.777 0-1.24-.682-1.24-1.9 0-2.602 1.298-5.264 2.846-5.264q.136 0 .27.018Z"/>
+                    <a href="https://x.com/">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-twitter-x icon" viewBox="0 0 16 16">
+                            <path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/>
                         </svg>
                     </a>
                 </li>          
             </ul>
+            <div class="copyright">
+                <p>&copy; 2024 Juan Ignacio Ledesma - Todos los derechos reservados. Para uso académico y laboral solamente.</p>
+            </div>
         </footer>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     </div>

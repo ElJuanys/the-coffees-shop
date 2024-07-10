@@ -1,0 +1,11 @@
+.inicio{
+    @include justify(space-between);
+    align-items: center;
+    //Codigo Obsoleto gracias al uso de maps
+    //&--titulo{
+    //    width:60%;
+    //}
+    //&--logo{
+    //    width: 20%;
+    //}
+}

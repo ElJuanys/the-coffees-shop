@@ -1,0 +1,12 @@
+$width-porcentaje:(
+    XL:  100%,
+    L:   80%,
+    M:   60%,
+    S:   40%,
+    XS:  20%,
+);
+@each $medida, $porcentaje in $width-porcentaje{
+    .ancho-#{$medida}{
+        width: $porcentaje;
+    }
+}

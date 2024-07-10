@@ -1,0 +1,18 @@
+//RESET
+@import './config/vars';
+@import './config/reset';
+@import './config/maps';
+@import './config/mixin';
+@import './config/general';
+//NAV
+@import 'titulo.scss';
+@import 'navegador.scss';
+//MAIN
+@import 'inicio.scss';
+@import 'productos.scss';
+@import 'sucursales.scss';
+@import 'formulario.scss';
+//FOOTER
+@import 'footer';
+//MediaQuery
+@import './config/mq';

@@ -1,0 +1,28 @@
+.sucursal{
+    margin:2em 0em 2em 0em;
+    padding: 1em;
+    h5{
+        text-align: center;
+        background-color:$reddish;
+    }
+    iframe{
+        height: 100%;
+    }
+    &_individual{
+        background-color: $beige-2;
+        @include bordes (0.1em);
+        .descripcion{
+            margin: 0.9em;
+        }
+        &_img{
+            img{
+                transition: transform .2s;
+                @include bordes (0.1em);
+            }
+            img:hover {
+                transform: scale(0.9); 
+            }
+        }
+    }
+    
+}

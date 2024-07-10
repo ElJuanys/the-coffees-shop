@@ -1,0 +1,12 @@
+.container_formulario{
+    @include justify(center);
+    .formulario{
+        @include bordes (0.2em);
+        padding: 1em;
+        margin: 1em 0em 1em 0em;
+        .boton{
+            margin-top: 0.4em;
+            justify-content: flex-end;
+        }
+    }
+}   

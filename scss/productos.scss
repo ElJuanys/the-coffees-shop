@@ -1,0 +1,26 @@
+.orden{
+    @include justify(space-evenly);
+    .producto{
+        @include bordes (0.1em);
+        background-color: $beige-1;
+        margin-bottom: 3%;
+        justify-content: flex-end;
+        @include sombra();
+        img{
+            margin-top: 0.4em;
+            @include sombra();
+            @include bordes (0.1em)
+        }
+        a{
+            @include sombra();
+            @include bordes (0.1em)
+        }
+        @include resaltar();
+        .precio{
+            color: $black;
+        }
+    }
+}
+
+
+

@@ -1,0 +1,27 @@
+@mixin bordes($ancho){
+    border: $black solid $ancho;
+}
+@mixin resaltar(){
+    ::before{
+        transition: all .4s ease-in;
+        background-color: $grey-1;
+        position: absolute;
+        content: "";
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        opacity: 0;
+        cursor: pointer;
+    }
+    :hover::before{
+        opacity: .6 ;
+    }
+}
+@mixin justify($just){
+    display: flex;
+    justify-content: $just;
+}
+@mixin sombra(){
+    box-shadow: 0.2em 0.2em 0.2em 0.2em $shadow;
+}

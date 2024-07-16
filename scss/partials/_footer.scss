@@ -2,10 +2,11 @@
 footer{
     background-color:$bluish;
     position:absolute;
+    
     ul{
         padding: 1em;
         @include justify(space-between);
-        .icon{
+        .icono{
             width: 2em;
         }
     }

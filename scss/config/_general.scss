@@ -5,10 +5,11 @@ a{
 ul{
     list-style-type: none;
 }
-.todo{
-    background-color: $beige;
+body{
+    background-image: linear-gradient(180deg, $beige 0%,$beige 95%, $bluish 100%);
 }
 h2{
-    background-color: $reddish;
+    color: #ffffffff;
+    background: linear-gradient(180deg, #873D48 49%, #3f1c21 87%);
     margin:0.8em 0em 0.8em 0em;
 }

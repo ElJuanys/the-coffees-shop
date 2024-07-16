@@ -1,12 +1,17 @@
 .container_formulario{
     @include justify(center);
     .formulario{
+        background: linear-gradient(180deg, #4e4e4e 49%, #8d8d8d 87%);
         @include bordes (0.2em);
         padding: 1em;
         margin: 1em 0em 1em 0em;
         .boton{
             margin-top: 0.4em;
             justify-content: flex-end;
+            button{
+                background: linear-gradient(180deg, #353535 49%, #000000 100%);
+                color:#ffffff;
+            }
         }
     }
 }   

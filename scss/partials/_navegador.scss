@@ -1,9 +1,9 @@
-.container-nav{
+.contenedor-nav{
     padding: 0;
     .navegador{
         border-top: $black solid 0.1em;
         border-bottom: $black solid 0.1em;
-        background-color: $beige-2;
+        background: linear-gradient(180deg, #fcebcb 49%, #b3b3b3 87%);
         font-weight: 900; 
         .navegador_vista{
             @include justify(inherit);

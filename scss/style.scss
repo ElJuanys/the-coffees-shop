@@ -4,15 +4,16 @@
 @import './config/maps';
 @import './config/mixin';
 @import './config/general';
+
 //NAV
-@import 'titulo.scss';
-@import 'navegador.scss';
+@import './partials/titulo';
+@import './partials/navegador';
 //MAIN
-@import 'inicio.scss';
-@import 'productos.scss';
-@import 'sucursales.scss';
-@import 'formulario.scss';
+@import './pages/index';
+@import './pages/productos';
+@import './pages/sucursales';
+@import './pages/contacto';
 //FOOTER
-@import 'footer';
+@import './partials/footer';
 //MediaQuery
 @import './config/mq';

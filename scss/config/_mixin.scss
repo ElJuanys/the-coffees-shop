@@ -4,7 +4,7 @@
 @mixin resaltar(){
     ::before{
         transition: all .4s ease-in;
-        background-color: $grey-1;
+        background-color: #ffffff23;
         position: absolute;
         content: "";
         top: 0;
@@ -24,4 +24,7 @@
 }
 @mixin sombra(){
     box-shadow: 0.2em 0.2em 0.2em 0.2em $shadow;
+}
+@mixin degrade($color1,$color2){
+    background: linear-gradient(180deg, $color1 49%, $color2 87%);
 }

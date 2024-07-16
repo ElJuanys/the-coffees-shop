@@ -1,15 +1,16 @@
 .sucursal{
     margin:2em 0em 2em 0em;
     padding: 1em;
-    h5{
+    h2{
         text-align: center;
-        background-color:$reddish;
+        border-top:$black solid 0.01em ;
+        border-bottom:$black solid 0.01em;
     }
     iframe{
         height: 100%;
     }
     &_individual{
-        background-color: $beige-2;
+        background: linear-gradient(180deg, #fcebcb 49%, #b3b3b3 87%);
         @include bordes (0.1em);
         .descripcion{
             margin: 0.9em;

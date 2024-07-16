@@ -33,12 +33,13 @@ ul {
   list-style-type: none;
 }
 
-.todo {
-  background-color: #C7A17A;
+body {
+  background-image: linear-gradient(180deg, #dfb388 0%, #dfb388 95%, #506C64 100%);
 }
 
 h2 {
-  background-color: #873D48;
+  color: white;
+  background: linear-gradient(180deg, #873D48 49%, #3f1c21 87%);
   margin: 0.8em 0em 0.8em 0em;
 }
 
@@ -48,30 +49,30 @@ h2 {
   align-items: center;
 }
 
-.container-nav {
+.contenedor-nav {
   padding: 0;
 }
-.container-nav .navegador {
+.contenedor-nav .navegador {
   border-top: #000000 solid 0.1em;
   border-bottom: #000000 solid 0.1em;
-  background-color: #C7B4A0;
+  background: linear-gradient(180deg, #fcebcb 49%, #b3b3b3 87%);
   font-weight: 900;
 }
-.container-nav .navegador .navegador_vista {
+.contenedor-nav .navegador .navegador_vista {
   display: flex;
   justify-content: inherit;
 }
-.container-nav .navegador .navegador_div {
+.contenedor-nav .navegador .navegador_div {
   text-align: center;
 }
-.container-nav .navegador .navegador_div .desplegable {
+.contenedor-nav .navegador .navegador_div .desplegable {
   background-color: #C7B4A0;
   font-weight: 900;
   text-align: center;
 }
 
 .presencia {
-  background-color: rgba(252, 235, 203, 0.431372549);
+  background: linear-gradient(180deg, #fcebcb 49%, #b3b3b3 87%);
   margin: 3%;
 }
 .presencia img {
@@ -100,7 +101,7 @@ h2 {
 }
 .orden .producto ::before {
   transition: all 0.4s ease-in;
-  background-color: rgba(255, 255, 255, 0.4196078431);
+  background-color: rgba(255, 255, 255, 0.137254902);
   position: absolute;
   content: "";
   top: 0;
@@ -121,15 +122,16 @@ h2 {
   margin: 2em 0em 2em 0em;
   padding: 1em;
 }
-.sucursal h5 {
+.sucursal h2 {
   text-align: center;
-  background-color: #873D48;
+  border-top: #000000 solid 0.01em;
+  border-bottom: #000000 solid 0.01em;
 }
 .sucursal iframe {
   height: 100%;
 }
 .sucursal_individual {
-  background-color: #C7B4A0;
+  background: linear-gradient(180deg, #fcebcb 49%, #b3b3b3 87%);
   border: #000000 solid 0.1em;
 }
 .sucursal_individual .descripcion {
@@ -148,6 +150,7 @@ h2 {
   justify-content: center;
 }
 .container_formulario .formulario {
+  background: linear-gradient(180deg, #4e4e4e 49%, #8d8d8d 87%);
   border: #000000 solid 0.2em;
   padding: 1em;
   margin: 1em 0em 1em 0em;
@@ -155,6 +158,10 @@ h2 {
 .container_formulario .formulario .boton {
   margin-top: 0.4em;
   justify-content: flex-end;
+}
+.container_formulario .formulario .boton button {
+  background: linear-gradient(180deg, #353535 49%, #000000 100%);
+  color: #ffffff;
 }
 
 footer {
@@ -166,7 +173,7 @@ footer ul {
   display: flex;
   justify-content: space-between;
 }
-footer ul .icon {
+footer ul .icono {
   width: 2em;
 }
 footer .copyright {

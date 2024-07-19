@@ -6,6 +6,9 @@
         margin-bottom: 3%;
         justify-content: flex-end;
         @include sombra();
+        h3{
+            font-size: 1.3em; 
+        }
         img{
             margin-top: 0.4em;
             @include sombra();

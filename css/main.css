@@ -1,5 +1,4 @@
 * {
-  font-family: "Playfair Display", serif;
   font-weight: 800;
   padding: 0;
 }
@@ -34,7 +33,7 @@ ul {
 }
 
 body {
-  background-image: linear-gradient(180deg, #dfb388 0%, #dfb388 95%, #506C64 100%);
+  background: #dfb388;
 }
 
 h2 {
@@ -75,6 +74,11 @@ h2 {
   background: linear-gradient(180deg, #fcebcb 49%, #b3b3b3 87%);
   margin: 3%;
 }
+.presencia .titulo1 {
+  color: #000000;
+  background: none;
+  margin: 0.8em 0em 0.8em 0em;
+}
 .presencia img {
   margin-top: 0.3em;
 }
@@ -89,6 +93,9 @@ h2 {
   margin-bottom: 3%;
   justify-content: flex-end;
   box-shadow: 0.2em 0.2em 0.2em 0.2em rgba(32, 32, 32, 0.3019607843);
+}
+.orden .producto h3 {
+  font-size: 1.3em;
 }
 .orden .producto img {
   margin-top: 0.4em;
@@ -167,6 +174,8 @@ h2 {
 footer {
   background-color: #506C64;
   position: absolute;
+  border-top: 0.1em solid #000000;
+  padding-top: 1em;
 }
 footer ul {
   padding: 1em;

@@ -1,6 +1,11 @@
 .presencia{
     background: linear-gradient(180deg, #fcebcb 49%, #b3b3b3 87%);
     margin: 3%;
+    .titulo1{
+        color: $black;
+        background: none;
+        margin:0.8em 0em 0.8em 0em;
+    }
     img{
         margin-top: 0.3em;
     }

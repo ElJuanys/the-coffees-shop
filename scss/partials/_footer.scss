@@ -2,7 +2,8 @@
 footer{
     background-color:$bluish;
     position:absolute;
-    
+    border-top:0.1em solid $black ;
+    padding-top: 1em;
     ul{
         padding: 1em;
         @include justify(space-between);
